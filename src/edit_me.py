@@ -1,5 +1,12 @@
 from common import Direction
 
+"""
+You need to change the server host in order to connect to multiplayer. The IP will be displayed on the board when the game
+is running.
+"""
+SERVER_HOST = "0.0.0.0"
+SERVER_PORT = 27910
+
 def handshake() -> str:
     """
     This function will get called when your santa connects to the server. You should return a string which will be your
